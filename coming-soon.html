@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon - .Raifa</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <!-- Mouse move effect container -->
+  <div id="mouse-move-effect"></div>
+
+  <!-- Animated Background -->
+  <div class="animated-background">
+    <div class="gradient-overlay"></div>
+    <div class="gradient-top-right"></div>
+    <div class="gradient-bottom-left"></div>
+    <div class="particles" id="particles"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <div class="logo">.Raifa</div>
+    <div class="coming-soon">Coming Soon</div>
+    <button class="trailer-btn" id="trailer-btn">
+      <i data-feather="play"></i> Watch Trailer
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 .Raifa. All rights reserved.</p>
+  </div>
+
+  <!-- Video Modal -->
+  <div class="modal" id="video-modal">
+    <div class="modal-content">
+      <div class="video-container">
+        <video id="trailer-video" poster="Mockup.png">
+          <source src="The New YouTube.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="play-button" id="play-button">
+          <i data-feather="play"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="particles.js"></script>
+</body>
+</html>
